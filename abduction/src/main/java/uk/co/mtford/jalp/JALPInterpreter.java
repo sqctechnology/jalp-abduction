@@ -4,12 +4,10 @@ import org.apache.log4j.Logger;
 import uk.co.mtford.jalp.abduction.AbductiveFramework;
 import uk.co.mtford.jalp.abduction.Result;
 import uk.co.mtford.jalp.abduction.logic.instance.IInferableInstance;
-import uk.co.mtford.jalp.abduction.logic.instance.equalities.IInEqualitySolver;
 import uk.co.mtford.jalp.abduction.logic.instance.term.VariableInstance;
 import uk.co.mtford.jalp.abduction.parse.program.ParseException;
 import uk.co.mtford.jalp.abduction.parse.query.JALPQueryParser;
 
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.LinkedList;
